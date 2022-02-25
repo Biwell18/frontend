@@ -1,0 +1,29 @@
+.Nav-container, .Nav-ul-list{
+    display:flex;
+}
+.Nav-Subcontainer{
+    margin-left: auto;
+}
+
+.Nav-list {
+    list-style: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.Nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 1.1em;
+}
+
+.Nav-list a:hover {
+    background: black ;
+    border-radius: 3px;
+}
+
+.Nav-list a:active{
+    color: red;
+}
+
